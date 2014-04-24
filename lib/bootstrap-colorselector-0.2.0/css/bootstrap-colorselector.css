@@ -12,9 +12,10 @@
   top: 80%;
   left: -7px;
   padding: 4px;
-  min-width: 130px;
-  max-width: 130px;
+  min-width: 0;
+  /*max-width: 130px;*/
 }
+
 
 /*
 .dropdown-colorselector>.dropdown-menu.pull-right {
@@ -28,6 +29,10 @@
   width: 20px;
   height: 20px;
   margin: 2px;
+}
+.dropdown-colorselector>.dropdown-menu>li:nth-child(4n+1) {
+  clear:left;
+  float:left;
 }
 
 .dropdown-colorselector>.dropdown-menu>li>.color-btn {
@@ -71,6 +76,16 @@
   background-color: #DDD;
   vertical-align: middle;
   border-radius: 0;
+}
+
+.line-colorselector {
+  display: inline-block;
+  width: 80px;
+  height: 5px;
+  background-color: #DDD;
+  vertical-align: middle;
+  border-radius: 0;
+  margin: 4 0 4;
 }
 
 .dropdown-menu.dropdown-caret:before {
